@@ -31,7 +31,11 @@ flutter:
   #  - images/a_dot_ham.jpeg
 
   assets:
-    - Assets/image
+    - Assets/image/mars.png
+    - Assets/image/earth.png
+    - Assets/image/mercury.png
+    - Assets/image/moon.png
+    - Assets/image/neptune.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
@@ -61,6 +65,8 @@ flutter:
     fonts:
     - asset: Assets/font/Poppins/Poppins-SemiBold.ttf
       weight: 600
+    - asset: Assets/font/Poppins/Poppins-Regular.ttf
+      weight: 400
 
 
 
